@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 3px;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    padding-bottom: 2.7rem;
+    box-sizing: inherit;
+    background-color: rgb(228, 207, 207);
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px 15px 20px;
+    /* z-index: 3; */
+    background-color: transparent;
+    position: fixed;
+    width: 100%;
+    background-color: #e8e8ba;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: end;
+    gap: 25px;
+    height: 100%;
+    font-size: 18px;
+}
+
+.logo {
+    height: 50px;
+    width: 120px;
+}
+
+.nav-branding {
+    font-size: 0.85rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--text);
+    gap: 10px;
+    font-size: 18px;
+}
+
+.nav-branding h3 {
+    font-weight: 300;
+    font-family: var(--font2);
+}
+
+.nav-item {
+    font-weight: 200;
+}
+
+.nav-link {
+    transition: 0.7s ease;
+    cursor: pointer;
+    padding: 15px 20px 15px 20px;
+    height: 100%;
+    color: var(--text);
+    transition: 0.3s;
+    font-family: var(--fontl);
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 20px;
+    height: 2px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--text);
+}
+
+.pri {
+    color: var(--primary);
+}
+
+.hero {
+    background-color: #fff;
+    height: 600px;
+}
+
+.main-content {
+    background-color: #fff;
+    color: rgb(48, 37, 37);
+    text-align: center;
+    padding-top: 300px;
+
+}
+
+.section2 {
+    background-color: #c8da98;
+    height: 150px;
+}
+
+.section2text {
+    align-self: center;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.section2 h1 {
+    font: 18px;
+    color: white;
+    text-align: center;
+}
+
+.Team {
+    text-align: center;
+    background-color: #fff;
+    height: 600px;
+    padding-top: 100px;
+    padding-left: 100px ;
+    padding-right: 100px;
+}
+.memberteam{
+    background-color: #deaeae;
+    border: 2px solid;
+    border-radius: 9px;
+    height: 200px;
+    width: 400px;
+    margin-top: 50px;
+}
+.teammem{
+    display: flex;
+    justify-content: space-around;
+}
