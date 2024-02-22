@@ -66,12 +66,12 @@ a {
 }
 
 .nav-branding h3 {
-    font-weight: 300;
+    font-weight: 800;
     font-family: var(--font2);
 }
 
 .nav-item {
-    font-weight: 200;
+    font-weight: 500;
 }
 
 .nav-link {
@@ -129,12 +129,12 @@ a {
     align-self: center;
     text-align: center;
     font-size: 40px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .section2 h1 {
     font: 18px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -157,4 +157,9 @@ a {
 .teammem{
     display: flex;
     justify-content: space-around;
+}
+#teamP
+{
+    margin-bottom: 40px;
+    margin-top: 15px;
 }
